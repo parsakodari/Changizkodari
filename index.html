@@ -1,0 +1,1565 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" data-language="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Changiz Kodari Plasterwork | گروه گچبری چنگیز کدری</title>
+    <meta name="description" content="Professional plasterwork & ornamental stucco since 1981">
+    <meta name="theme-color" content="#1c2516">
+    <link rel="canonical" href="https://changizkodari.ir/">
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    
+    <!-- Open Graph Tags -->
+    <meta property="og:title" content="Changiz Kodari Plasterwork | گروه گچبری چنگیز کدری">
+    <meta property="og:description" content="Professional plasterwork & ornamental stucco since 1981">
+    <meta property="og:url" content="https://changizkodari.ir/">
+    <meta property="og:type" content="website">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Noto+Kufi+Arabic:wght@400;500;600;700&family=Vazirmatn:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <style>
+        :root {
+            --olive-0: #141a0f;
+            --olive-1: #1c2516;
+            --olive-2: #253020;
+            --olive-3: #2e3b28;
+            --panel: #1f2c19;
+            --panel-2: #273521;
+            --cream: #f2ead8;
+            --cream-2: #ddd2b8;
+            --ink: #121a0d;
+            --text: #f0ede4;
+            --text-2: #c4c8bc;
+            --muted: #8a9480;
+            --accent: #8b9a3e;
+            --accent-2: #a8b94d;
+            --line: rgba(139, 154, 62, 0.18);
+            --line-soft: rgba(255, 255, 255, 0.075);
+            --shadow: 0 22px 65px rgba(2, 8, 4, 0.32);
+            --radius: 18px;
+            --fa: 'Vazirmatn', Tahoma, 'Segoe UI', sans-serif;
+            --en: 'Inter', 'Segoe UI', Arial, sans-serif;
+            --ar: 'Noto Kufi Arabic', 'Vazirmatn', Tahoma, sans-serif;
+            --transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+        }
+
+        /* Language Visibility Rules */
+        [data-fa], [data-ar] { display: none !important; }
+        html[data-language="fa"] [data-fa] { display: revert !important; }
+        html[data-language="fa"] [data-en] { display: none !important; }
+        html[data-language="fa"] [data-ar] { display: none !important; }
+        html[data-language="ar"] [data-ar] { display: revert !important; }
+        html[data-language="ar"] [data-en] { display: none !important; }
+        html[data-language="ar"] [data-fa] { display: none !important; }
+
+        /* Typography per language */
+        html[data-language="en"] body { font-family: var(--en); line-height: 1.6; }
+        html[data-language="fa"] body { font-family: var(--fa); line-height: 1.85; }
+        html[data-language="ar"] body { font-family: var(--ar); line-height: 1.75; }
+        html[data-language="fa"] .hero-content h1,
+        html[data-language="ar"] .hero-content h1 { line-height: 1.55; }
+        html[data-language="fa"] .hero-content p,
+        html[data-language="ar"] .hero-content p { line-height: 2; }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: var(--olive-0);
+            color: var(--text);
+            line-height: 1.6;
+            overflow-x: hidden;
+            background-image: 
+                radial-gradient(circle at 15% 50%, rgba(139, 154, 62, 0.05) 0%, transparent 50%),
+                radial-gradient(circle at 85% 30%, rgba(139, 154, 62, 0.04) 0%, transparent 50%);
+            background-attachment: fixed;
+        }
+
+        /* Background Grid */
+        .grid-bg {
+            position: fixed;
+            top: 0; left: 0; right: 0; bottom: 0;
+            background-image: linear-gradient(var(--line-soft) 1px, transparent 1px), linear-gradient(90deg, var(--line-soft) 1px, transparent 1px);
+            background-size: 50px 50px;
+            z-index: -1;
+            pointer-events: none;
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .container {
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+
+        /* Buttons */
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            padding: 12px 28px;
+            border-radius: 50px;
+            font-weight: 500;
+            transition: var(--transition);
+            cursor: pointer;
+            border: 1px solid transparent;
+            font-size: 0.95rem;
+        }
+
+        .btn-primary {
+            background-color: var(--accent);
+            color: var(--ink);
+        }
+
+        .btn-primary:hover {
+            background-color: var(--accent-2);
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(139, 154, 62, 0.2);
+        }
+
+        .btn-outline {
+            background-color: transparent;
+            color: var(--cream);
+            border-color: var(--line);
+            backdrop-filter: blur(10px);
+        }
+
+        .btn-outline:hover {
+            background-color: var(--panel-2);
+            border-color: var(--accent);
+        }
+
+        /* Header */
+        header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 100;
+            background: rgba(20, 26, 15, 0.85);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border-bottom: 1px solid var(--line-soft);
+            transition: var(--transition);
+        }
+
+        .nav-container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 80px;
+        }
+
+        .brand {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+        }
+
+        .brand img {
+            height: 40px;
+            width: auto;
+        }
+
+        .brand-text h2 {
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: var(--cream);
+            letter-spacing: 1px;
+            text-transform: uppercase;
+        }
+
+        .brand-text p {
+            font-size: 0.75rem;
+            color: var(--muted);
+            margin-top: 2px;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 32px;
+            align-items: center;
+        }
+
+        .nav-links a {
+            font-size: 0.9rem;
+            font-weight: 500;
+            color: var(--text-2);
+            transition: var(--transition);
+            position: relative;
+        }
+
+        .nav-links a:hover {
+            color: var(--cream);
+        }
+
+        .lang-group {
+            display: flex;
+            border: 1px solid var(--line);
+            border-radius: 50px;
+            overflow: hidden;
+            background: var(--panel);
+        }
+        .lang-btn {
+            background: transparent;
+            border: none;
+            color: var(--text-2);
+            padding: 8px 14px;
+            cursor: pointer;
+            font-size: 0.82rem;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+            transition: var(--transition);
+            font-family: inherit;
+        }
+        .lang-btn.active {
+            background: var(--accent);
+            color: var(--ink);
+        }
+        .lang-btn:hover:not(.active) {
+            background: var(--panel-2);
+            color: var(--cream);
+        }
+
+        #langGroupMobile { display: none; }
+        
+        .hamburger {
+            display: none;
+            background: none;
+            border: none;
+            color: var(--cream);
+            font-size: 1.5rem;
+            cursor: pointer;
+        }
+
+        /* Hero Section */
+        .hero {
+            padding: 160px 0 100px;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+        }
+
+        .hero-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 60px;
+            align-items: center;
+        }
+
+        .hero-content .eyebrow {
+            color: var(--accent);
+            font-size: 0.85rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 24px;
+            display: inline-block;
+            padding: 6px 16px;
+            border: 1px solid var(--line);
+            border-radius: 50px;
+            background: var(--panel);
+        }
+
+        .hero-content h1 {
+            font-size: clamp(2.5rem, 5vw, 4rem);
+            line-height: 1.1;
+            color: var(--cream);
+            margin-bottom: 24px;
+            font-weight: 600;
+        }
+
+        .hero-content p {
+            font-size: 1.1rem;
+            color: var(--text-2);
+            margin-bottom: 40px;
+            max-width: 90%;
+        }
+
+        .hero-actions {
+            display: flex;
+            gap: 16px;
+            margin-bottom: 40px;
+        }
+
+        .scope-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+            align-items: center;
+            color: var(--muted);
+            font-size: 0.9rem;
+        }
+
+        .hero-visual {
+            position: relative;
+            height: 600px;
+        }
+
+        .art-panel {
+            position: absolute;
+            inset: 0;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+            gap: 16px;
+        }
+
+        .art-img {
+            border-radius: var(--radius);
+            overflow: hidden;
+            box-shadow: var(--shadow);
+            position: relative;
+        }
+
+        .art-img img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.7s ease;
+        }
+        
+        .art-img:hover img {
+            transform: scale(1.05);
+        }
+
+        .art-img-1 { grid-column: 1 / 2; grid-row: 1 / 3; }
+        .art-img-2 { grid-column: 2 / 3; grid-row: 1 / 2; }
+        .art-img-3 { grid-column: 2 / 3; grid-row: 2 / 3; }
+
+        .est-badge {
+            position: absolute;
+            bottom: 40px;
+            left: -30px;
+            background: var(--accent);
+            color: var(--ink);
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 700;
+            font-size: 1.2rem;
+            text-align: center;
+            box-shadow: 0 15px 30px rgba(139, 154, 62, 0.3);
+            border: 4px solid var(--olive-0);
+            z-index: 10;
+        }
+
+        html[dir="rtl"] .est-badge {
+            left: auto;
+            right: -30px;
+        }
+
+        /* Section Ornament */
+        .section-divider {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 40px 0;
+            opacity: 0.5;
+        }
+        .section-divider::before,
+        .section-divider::after {
+            content: '';
+            height: 1px;
+            width: 100px;
+            background: var(--line);
+        }
+        .section-divider i {
+            width: 8px;
+            height: 8px;
+            background: var(--accent);
+            transform: rotate(45deg);
+            margin: 0 16px;
+        }
+
+        /* Sections common */
+        section {
+            padding: 100px 0;
+        }
+
+        .section-header {
+            margin-bottom: 60px;
+            text-align: center;
+        }
+
+        .kicker {
+            color: var(--accent);
+            font-size: 0.85rem;
+            font-weight: 600;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            margin-bottom: 16px;
+            display: block;
+        }
+
+        .section-header h2 {
+            font-size: 2.5rem;
+            color: var(--cream);
+            font-weight: 600;
+        }
+
+        /* Taxonomy Section */
+        .taxonomy-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 24px;
+        }
+        
+        .tax-card {
+            background: var(--panel);
+            border: 1px solid var(--line);
+            border-radius: var(--radius);
+            padding: 40px;
+            transition: var(--transition);
+            display: flex;
+            flex-direction: column;
+        }
+
+        .tax-card:hover {
+            background: var(--panel-2);
+            border-color: var(--accent);
+            transform: translateY(-5px);
+        }
+
+        .tax-label {
+            font-size: 0.8rem;
+            color: var(--muted);
+            letter-spacing: 1px;
+            margin-bottom: 12px;
+        }
+
+        .tax-card h3 {
+            font-size: 1.8rem;
+            color: var(--cream);
+            margin-bottom: 16px;
+        }
+
+        .tax-card p {
+            color: var(--text-2);
+            margin-bottom: 32px;
+            flex-grow: 1;
+        }
+
+        .sub-cats {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .sub-cat {
+            background: var(--olive-2);
+            color: var(--text);
+            padding: 6px 14px;
+            border-radius: 50px;
+            font-size: 0.85rem;
+            border: 1px solid var(--line);
+            cursor: pointer;
+            transition: var(--transition);
+        }
+
+        .sub-cat:hover {
+            background: var(--accent);
+            color: var(--ink);
+            border-color: var(--accent);
+        }
+        
+        .tax-group {
+            display: grid;
+            grid-template-rows: 1fr 1fr;
+            gap: 24px;
+        }
+
+        /* Gallery */
+        .filters {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+            justify-content: center;
+            margin-bottom: 40px;
+        }
+
+        .filter-btn {
+            background: var(--panel);
+            border: 1px solid var(--line);
+            color: var(--text-2);
+            padding: 8px 20px;
+            border-radius: 50px;
+            cursor: pointer;
+            font-size: 0.9rem;
+            transition: var(--transition);
+        }
+
+        .filter-btn:hover, .filter-btn.active {
+            background: var(--accent);
+            color: var(--ink);
+            border-color: var(--accent);
+        }
+
+        .gallery-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 16px;
+        }
+
+        .gallery-item {
+            position: relative;
+            border-radius: 12px;
+            overflow: hidden;
+            aspect-ratio: 4/5;
+            cursor: pointer;
+            transform: translateZ(0);
+        }
+        
+        .gallery-item::after {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(to top, rgba(0,0,0,0.8) 0%, transparent 50%);
+            opacity: 0;
+            transition: var(--transition);
+        }
+
+        .gallery-item img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+        }
+
+        .gallery-item:hover img {
+            transform: scale(1.08);
+        }
+        
+        .gallery-item:hover::after {
+            opacity: 1;
+        }
+        
+        .gallery-tag {
+            position: absolute;
+            bottom: 20px;
+            left: 20px;
+            color: white;
+            font-size: 0.85rem;
+            font-weight: 500;
+            z-index: 2;
+            opacity: 0;
+            transform: translateY(10px);
+            transition: var(--transition);
+        }
+        
+        html[dir="rtl"] .gallery-tag {
+            left: auto;
+            right: 20px;
+        }
+        
+        .gallery-item:hover .gallery-tag {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        /* Bio Section */
+        .bio-section {
+            background: var(--panel);
+            border-top: 1px solid var(--line);
+            border-bottom: 1px solid var(--line);
+        }
+
+        .bio-grid {
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            gap: 60px;
+            align-items: center;
+        }
+
+        .bio-portrait {
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 24px;
+        }
+
+        .portrait-frame {
+            width: 280px;
+            height: 280px;
+            border-radius: 50%;
+            overflow: hidden;
+            border: 4px solid var(--accent);
+            box-shadow: 0 20px 50px rgba(0,0,0,0.3), 0 0 0 8px rgba(139,154,62,0.1);
+            position: relative;
+        }
+
+        .portrait-frame img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center 15%;
+            transition: transform 0.6s ease;
+        }
+
+        .portrait-frame:hover img {
+            transform: scale(1.05);
+        }
+
+        .bio-portrait .portrait-name {
+            color: var(--cream);
+            font-size: 1.2rem;
+            font-weight: 600;
+            letter-spacing: 1px;
+        }
+
+        .bio-portrait .portrait-sub {
+            color: var(--muted);
+            font-size: 0.85rem;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+        }
+
+        .bio-content p {
+            font-size: 1.15rem;
+            color: var(--text-2);
+            line-height: 1.8;
+            margin-bottom: 40px;
+        }
+
+        .bio-stats {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 24px;
+            border-top: 1px solid var(--line);
+            padding-top: 40px;
+        }
+
+        .stat h4 {
+            font-size: 2rem;
+            color: var(--cream);
+            margin-bottom: 8px;
+            font-weight: 600;
+        }
+
+        .stat p {
+            font-size: 0.9rem;
+            color: var(--muted);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        /* Contact portrait */
+        .contact-portrait {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            overflow: hidden;
+            border: 3px solid var(--accent);
+            box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+            margin-bottom: 24px;
+        }
+        .contact-portrait img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center 15%;
+        }
+
+        /* Contact Section */
+        .contact-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 60px;
+        }
+
+        .contact-info h2 {
+            font-size: 2.5rem;
+            color: var(--cream);
+            margin-bottom: 40px;
+            line-height: 1.2;
+        }
+
+        .contact-links {
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+        }
+
+        .contact-link {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            font-size: 1.5rem;
+            color: var(--cream);
+            transition: var(--transition);
+        }
+
+        .contact-link:hover {
+            color: var(--accent);
+        }
+
+        .contact-icon {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background: var(--panel);
+            border: 1px solid var(--line);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--accent);
+        }
+
+        .contact-form {
+            background: var(--panel);
+            padding: 40px;
+            border-radius: var(--radius);
+            border: 1px solid var(--line);
+        }
+
+        .form-group {
+            margin-bottom: 24px;
+        }
+
+        .form-control {
+            width: 100%;
+            background: var(--olive-1);
+            border: 1px solid var(--line);
+            border-radius: 8px;
+            padding: 16px;
+            color: var(--text);
+            font-family: inherit;
+            font-size: 1rem;
+            transition: var(--transition);
+        }
+
+        .form-control:focus {
+            outline: none;
+            border-color: var(--accent);
+            box-shadow: 0 0 0 3px rgba(139, 154, 62, 0.1);
+        }
+
+        textarea.form-control {
+            min-height: 120px;
+            resize: vertical;
+        }
+        
+        .form-btn {
+            width: 100%;
+            padding: 16px;
+            border-radius: 8px;
+            font-size: 1.1rem;
+        }
+
+        /* Footer */
+        footer {
+            background: var(--ink);
+            padding: 40px 0;
+            text-align: center;
+            border-top: 1px solid var(--line);
+        }
+
+        .footer-text {
+            color: var(--muted);
+            font-size: 0.9rem;
+        }
+
+        /* Lightbox */
+        .lightbox {
+            position: fixed;
+            inset: 0;
+            background: rgba(18, 26, 13, 0.98);
+            z-index: 1000;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            opacity: 0;
+            pointer-events: none;
+            transition: opacity 0.3s ease;
+            backdrop-filter: blur(10px);
+        }
+
+        .lightbox.active {
+            opacity: 1;
+            pointer-events: all;
+        }
+
+        .lightbox-content {
+            position: relative;
+            max-width: 90vw;
+            max-height: 90vh;
+        }
+
+        .lightbox-img {
+            max-width: 100%;
+            max-height: 85vh;
+            object-fit: contain;
+            border-radius: 8px;
+            box-shadow: 0 30px 60px rgba(0,0,0,0.5);
+        }
+
+        .lightbox-close, .lightbox-nav {
+            position: absolute;
+            background: var(--panel);
+            border: 1px solid var(--line);
+            color: var(--cream);
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: var(--transition);
+            font-size: 1.2rem;
+            z-index: 10;
+        }
+
+        .lightbox-close:hover, .lightbox-nav:hover {
+            background: var(--accent);
+            color: var(--ink);
+        }
+
+        .lightbox-close {
+            top: -60px;
+            right: 0;
+        }
+        
+        html[dir="rtl"] .lightbox-close {
+            right: auto;
+            left: 0;
+        }
+
+        .lightbox-prev {
+            left: -70px;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+
+        .lightbox-next {
+            right: -70px;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+        
+        .lightbox-info {
+            position: absolute;
+            bottom: -40px;
+            left: 0;
+            right: 0;
+            text-align: center;
+            color: var(--text-2);
+            font-size: 0.9rem;
+        }
+
+        /* Animations */
+        .reveal {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: all 0.8s cubic-bezier(0.5, 0, 0, 1);
+        }
+
+        .reveal.active {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        /* Responsive */
+        @media (max-width: 1050px) {
+            .gallery-grid { grid-template-columns: repeat(3, 1fr); }
+            .hero-content h1 { font-size: 3rem; }
+        }
+
+        @media (max-width: 780px) {
+            .nav-links {
+                position: fixed;
+                top: 80px;
+                left: 0;
+                width: 100%;
+                background: var(--panel);
+                flex-direction: column;
+                padding: 40px 0;
+                border-bottom: 1px solid var(--line);
+                clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+                transition: var(--transition);
+            }
+            .nav-links.active {
+                clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+            }
+            .hamburger { display: block; }
+            #langGroupDesktop { display: none !important; }
+            #langGroupMobile { display: none; }
+            .nav-links.active #langGroupMobile { display: flex; margin-top: 20px; }
+            
+            .hero-grid, .taxonomy-grid, .bio-grid, .contact-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .hero-visual { height: 400px; }
+            .gallery-grid { grid-template-columns: repeat(2, 1fr); }
+            .est-badge { width: 80px; height: 80px; font-size: 1rem; }
+            
+            .lightbox-prev, .lightbox-next { display: none; }
+        }
+
+        @media (max-width: 520px) {
+            .gallery-grid { grid-template-columns: 1fr; }
+            .hero-content h1 { font-size: 2.2rem; }
+            .bio-stats { grid-template-columns: repeat(2, 1fr); gap: 16px; text-align: center; }
+        }
+    </style>
+</head>
+<body>
+    <div class="grid-bg"></div>
+
+    <!-- Header -->
+    <header>
+        <div class="container nav-container">
+            <a href="#" class="brand">
+                <img src="logo_gold_transparent.png" alt="Changiz Kodari Logo" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 40 40\'%3E%3Crect width=\'40\' height=\'40\' fill=\'%238b9a3e\'/%3E%3C/svg%3E'">
+                <div class="brand-text">
+                    <h2>Changiz Kodari</h2>
+                    <p data-en>Plasterwork Group — Est. 1981</p>
+                    <p data-fa>گروه گچبری — از سال ۱۳۶۰</p>
+                    <p data-ar>مجموعة الجصّيات — منذ ١٩٨١</p>
+                </div>
+            </a>
+
+            <button class="hamburger">☰</button>
+
+            <nav class="nav-links">
+                <a href="#portfolio" data-en>Portfolio</a>
+                <a href="#portfolio" data-fa>نمونه‌کارها</a>
+                <a href="#portfolio" data-ar>أعمالنا</a>
+
+                <a href="#biography" data-en>Biography</a>
+                <a href="#biography" data-fa>بیوگرافی</a>
+                <a href="#biography" data-ar>السيرة الذاتية</a>
+
+                <a href="#contact" data-en>Contact</a>
+                <a href="#contact" data-fa>تماس</a>
+                <a href="#contact" data-ar>اتصل بنا</a>
+
+                <div class="lang-group" id="langGroupMobile">
+                    <button class="lang-btn active" data-lang="en">EN</button>
+                    <button class="lang-btn" data-lang="fa">FA</button>
+                    <button class="lang-btn" data-lang="ar">AR</button>
+                </div>
+            </nav>
+
+            <div class="lang-group" id="langGroupDesktop">
+                <button class="lang-btn active" data-lang="en">EN</button>
+                <button class="lang-btn" data-lang="fa">FA</button>
+                <button class="lang-btn" data-lang="ar">AR</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero">
+        <div class="container hero-grid">
+            <div class="hero-content reveal">
+                <span class="eyebrow" data-en>Master Plasterwork & Ornamental Stucco</span>
+                <span class="eyebrow" data-fa>هنر گچبری و تزئینات معماری</span>
+                <span class="eyebrow" data-ar>فنّ الجصّيات والزخارف المعمارية</span>
+
+                <h1 data-en>The Art of Plasterwork, Over Four Decades of Iranian Heritage</h1>
+                <h1 data-fa>هنر گچبری، بیش از چهار دهه میراث ایرانی</h1>
+                <h1 data-ar>فنّ الجصّيات، أكثر من أربعة عقود من التراث الإيراني</h1>
+
+                <p data-en>Since 1981, the Changiz Kodari Plasterwork Group has been creating exquisite ornamental plasterwork for ceremonial mansions, luxury residences, and prestigious architectural projects across Iran.</p>
+                <p data-fa>گروه گچبری چنگیز کدری از سال ۱۳۶۰ شمسی در زمینه اجرای گچبری‌های تزئینی برای عمارت‌های تشریفاتی، ویلاها و پروژه‌های معماری شاخص در سراسر ایران فعالیت می‌کند.</p>
+                <p data-ar>منذ عام ١٩٨١، تعمل مجموعة جنكيز كدري للجصّيات في تنفيذ أعمال الجصّ الزخرفي للقصور الاحتفالية والمساكن الفاخرة والمشاريع المعمارية المرموقة في أنحاء إيران.</p>
+
+                <div class="hero-actions">
+                    <a href="#portfolio" class="btn btn-primary">
+                        <span data-en>View Portfolio</span>
+                        <span data-fa>مشاهده نمونه‌کارها</span>
+                        <span data-ar>عرض الأعمال</span>
+                    </a>
+                    <a href="#contact" class="btn btn-outline">
+                        <span data-en>Contact Us</span>
+                        <span data-fa>تماس با ما</span>
+                        <span data-ar>اتصل بنا</span>
+                    </a>
+                </div>
+
+                <div class="scope-tags">
+                    <span data-en>Ornamental Stucco · Ceremonial Mansions · Residential Projects</span>
+                    <span data-fa>گچبری تزئینی · عمارت تشریفاتی · پروژه‌های مسکونی</span>
+                    <span data-ar>جصّيات زخرفية · القصور الاحتفالية · المشاريع السكنية</span>
+                </div>
+            </div>
+
+            <div class="hero-visual reveal">
+                <div class="art-panel">
+                    <div class="art-img art-img-1">
+                        <img src="Pic/mansion/lobby-1/2026_08_07_15_06_35_IMG_2125.webp" alt="Plasterwork Detail" loading="lazy">
+                    </div>
+                    <div class="art-img art-img-2">
+                        <img src="Pic/residential-1/IMG_0374.webp" alt="Ornamental Stucco" loading="lazy">
+                    </div>
+                    <div class="art-img art-img-3">
+                        <img src="Pic/mansion/wedding-hall/2026_08_07_15_09_53_IMG_2154.webp" alt="Mansion Plasterwork" loading="lazy">
+                    </div>
+                </div>
+                <div class="est-badge">
+                    <span data-en>EST.<br>1981</span>
+                    <span data-fa style="font-size: 1.5rem">۱۳۶۰</span>
+                    <span data-ar style="font-size: 1.5rem">١٩٨١</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="section-divider"><i></i></div>
+
+    <!-- Taxonomy -->
+    <section class="taxonomy container">
+        <div class="taxonomy-grid">
+            <div class="tax-card reveal">
+                <div class="tax-label">
+                    <span data-en>MANSION</span>
+                    <span data-fa>عمارت تشریفاتی</span>
+                    <span data-ar>عمارة الاحتفالات</span>
+                </div>
+                <h3 data-en>Ceremonial & Reception Mansion</h3>
+                <h3 data-fa>عمارت تشریفاتی و پذیرایی وزرا</h3>
+                <h3 data-ar>عمارة الاحتفالات والاستقبال</h3>
+                
+                <p data-en>Grandiose ornamental designs crafted specifically for large-scale reception areas and ceremonial spaces, featuring intricate ceiling medallions and wall motifs.</p>
+                <p data-fa>طرح‌های تزئینی باشکوه که به طور ویژه برای فضاهای پذیرایی در مقیاس بزرگ و عمارت‌های تشریفاتی طراحی و اجرا شده‌اند، همراه با مدالیون‌های پیچیده سقف و نقوش دیواری.</p>
+                <p data-ar>تصميمات زخرفية فخمة صُممت خصيصًا لمناطق الاستقبال واسعة النطاق وقاعات الاحتفالات، وتتميز بميداليات سقف معقدة وزخارف جدارية.</p>
+
+                <div class="sub-cats">
+                    <div class="sub-cat" onclick="filterGallery('entrance')">
+                        <span data-en>Entrance</span><span data-fa>ورودی</span><span data-ar>المدخل</span>
+                    </div>
+                    <div class="sub-cat" onclick="filterGallery('lobby1')">
+                        <span data-en>Lobby I</span><span data-fa>لابی اول</span><span data-ar>الردهة الأولى</span>
+                    </div>
+                    <div class="sub-cat" onclick="filterGallery('lobby2')">
+                        <span data-en>Lobby II</span><span data-fa>لابی دوم</span><span data-ar>الردهة الثانية</span>
+                    </div>
+                    <div class="sub-cat" onclick="filterGallery('lobby3')">
+                        <span data-en>Lobby III</span><span data-fa>لابی سوم</span><span data-ar>الردهة الثالثة</span>
+                    </div>
+                    <div class="sub-cat" onclick="filterGallery('wedding')">
+                        <span data-en>Wedding Hall</span><span data-fa>اتاق عقد</span><span data-ar>قاعة الزواج</span>
+                    </div>
+                    <div class="sub-cat" onclick="filterGallery('photo')">
+                        <span data-en>Photo Room</span><span data-fa>اتاق عکس</span><span data-ar>غرفة التصوير</span>
+                    </div>
+                    <div class="sub-cat" onclick="filterGallery('fitting')">
+                        <span data-en>Fitting Room</span><span data-fa>اتاق پرو</span><span data-ar>غرفة التبديل</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tax-group reveal" style="transition-delay: 0.2s">
+                <div class="tax-card">
+                    <div class="tax-label">RESIDENTIAL</div>
+                    <h3 data-en>Residential Project</h3>
+                    <h3 data-fa>پروژه مسکونی</h3>
+                    <h3 data-ar>المشروع السكني</h3>
+                    <div class="sub-cats" style="margin-top: auto">
+                        <div class="sub-cat" onclick="filterGallery('res1')"><span data-en>View Photos</span><span data-fa>مشاهده تصاویر</span><span data-ar>عرض الصور</span></div>
+                    </div>
+                </div>
+                <div class="tax-card">
+                    <div class="tax-label">RESIDENTIAL II</div>
+                    <h3 data-en>Residential Project II</h3>
+                    <h3 data-fa>پروژه مسکونی دو</h3>
+                    <h3 data-ar>المشروع السكني الثاني</h3>
+                    <div class="sub-cats" style="margin-top: auto">
+                        <div class="sub-cat" onclick="filterGallery('res2')"><span data-en>View Photos</span><span data-fa>مشاهده تصاویر</span><span data-ar>عرض الصور</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="section-divider"><i></i></div>
+
+    <!-- Gallery -->
+    <section id="portfolio" class="container">
+        <div class="section-header reveal">
+            <span class="kicker">PORTFOLIO</span>
+            <h2 data-en>Featured Works</h2>
+            <h2 data-fa>نمونه‌کارهای شاخص</h2>
+            <h2 data-ar>أعمال مميزة</h2>
+        </div>
+
+        <div class="filters reveal">
+            <button class="filter-btn active" data-filter="all"><span data-en>All</span><span data-fa>همه</span><span data-ar>الكل</span></button>
+            <button class="filter-btn" data-filter="mansion-all"><span data-en>Mansion</span><span data-fa>عمارت تشریفاتی</span><span data-ar>العمارة</span></button>
+            <button class="filter-btn" data-filter="entrance"><span data-en>Entrance</span><span data-fa>ورودی</span><span data-ar>المدخل</span></button>
+            <button class="filter-btn" data-filter="lobby1"><span data-en>Lobby I</span><span data-fa>لابی اول</span><span data-ar>الردهة الأولى</span></button>
+            <button class="filter-btn" data-filter="lobby2"><span data-en>Lobby II</span><span data-fa>لابی دوم</span><span data-ar>الردهة الثانية</span></button>
+            <button class="filter-btn" data-filter="lobby3"><span data-en>Lobby III</span><span data-fa>لابی سوم</span><span data-ar>الردهة الثالثة</span></button>
+            <button class="filter-btn" data-filter="wedding"><span data-en>Wedding Hall</span><span data-fa>اتاق عقد</span><span data-ar>قاعة الزواج</span></button>
+            <button class="filter-btn" data-filter="photo"><span data-en>Photo Room</span><span data-fa>اتاق عکس</span><span data-ar>غرفة التصوير</span></button>
+            <button class="filter-btn" data-filter="fitting"><span data-en>Fitting Room</span><span data-fa>اتاق پرو</span><span data-ar>غرفة التبديل</span></button>
+            <button class="filter-btn" data-filter="res1"><span data-en>Residential</span><span data-fa>پروژه مسکونی</span><span data-ar>المشروع السكني</span></button>
+            <button class="filter-btn" data-filter="res2"><span data-en>Residential II</span><span data-fa>پروژه مسکونی دو</span><span data-ar>المشروع السكني الثاني</span></button>
+        </div>
+
+        <div class="gallery-grid" id="galleryGrid">
+            <!-- Populated by JS -->
+        </div>
+    </section>
+
+    <!-- Bio -->
+    <section id="biography" class="bio-section">
+        <div class="container bio-grid">
+            <div class="bio-portrait reveal">
+                <div class="portrait-frame">
+                    <img src="ChangizKodari.webp" alt="Changiz Kodari">
+                </div>
+                <span class="portrait-name" data-en>Changiz Kodari</span>
+                <span class="portrait-name" data-fa>چنگیز کدری</span>
+                <span class="portrait-name" data-ar>جنكيز كدري</span>
+                <span class="portrait-sub">CHANGIZKODARI.IR</span>
+            </div>
+            
+            <div class="bio-content reveal">
+                <span class="kicker">BIOGRAPHY</span>
+                <h2 style="font-size: 2rem; color: var(--cream); margin-bottom: 24px; font-weight: 600;" data-en>Master Changiz Kodari</h2>
+                <h2 style="font-size: 2rem; color: var(--cream); margin-bottom: 24px; font-weight: 600;" data-fa>استاد چنگیز کدری</h2>
+                <h2 style="font-size: 2rem; color: var(--cream); margin-bottom: 24px; font-weight: 600;" data-ar>الأستاذ جنكيز كدري</h2>
+                
+                <blockquote style="border-right: 3px solid var(--accent); border-left: 3px solid var(--accent); padding: 16px 24px; margin-bottom: 32px; font-style: italic; color: var(--cream); font-size: 1.2rem; background: rgba(139,154,62,0.06); border-radius: 8px;">
+                    <span data-en>“We turn earth into art through alchemy.”</span>
+                    <span data-fa>«خاک را به هنر کیمیا کنیم.»</span>
+                    <span data-ar>«نحوّل التراب إلى فنّ بالكيمياء.»</span>
+                </blockquote>
+
+                <p data-en>Changiz Kodari, born in 1966, began his professional journey in 1981 as an apprentice alongside his uncle. Over four decades, he mastered ornamental plasterwork, Arabesque (Eslimi) patterns, and cast plasterwork — transforming a humble material into enduring works of art.</p>
+                <p data-fa>چنگیز کدری، متولد ۱۳۴۵، مسیر حرفه‌ای خود را از سال ۱۳۶۰ به‌عنوان شاگرد در کنار عمویش آغاز کرد. در طول بیش از چهار دهه، بر هنر گچبری تزئینی، نقوش اسلیمی و گچبری چدنی تسلط یافت و ماده‌ای ساده را به آثاری ماندگار تبدیل کرد.</p>
+                <p data-ar>جنكيز كدري، مواليد ١٩٦٦، بدأ مسيرته المهنية عام ١٩٨١ كمتدرّب إلى جانب عمّه. على مدار أكثر من أربعة عقود، أتقن فنّ الجصّيات الزخرفية ونقوش الأرابيسك والجصّيات المصبوبة — محوّلًا مادة بسيطة إلى أعمال فنية خالدة.</p>
+
+                <p data-en>Alongside his craft, he pursued painting to deepen his eye for line, form, and composition. His work has expanded into architectural decoration, interior design, and prestigious projects across Iran and abroad. After four decades, he still believes: <em>“In art, experience is not the end of learning — it is the beginning of deeper vision.”</em></p>
+                <p data-fa>در کنار فعالیت حرفه‌ای، آموزش نقاشی را دنبال کرد تا نگاه خود به خط، فرم و ترکیب‌بندی را عمیق‌تر کند. فعالیت او از گچبری فراتر رفته و به تزئینات معماری، طراحی داخلی و پروژه‌های شاخص در ایران و خارج از کشور گسترش یافته است. پس از چهار دهه، هنوز معتقد است: <em>«در هنر، تجربه پایان یادگیری نیست؛ آغاز نگاه عمیق‌تر است.»</em></p>
+                <p data-ar>إلى جانب عمله، درس الرسم لتعميق فهمه للخطوط والأشكال والتكوين. توسّع عمله ليشمل الزخرفة المعمارية والتصميم الداخلي والمشاريع المرموقة في إيران وخارجها. بعد أربعة عقود، لا يزال يؤمن: <em>«في الفنّ، الخبرة ليست نهاية التعلّم — بل بداية رؤية أعمق.»</em></p>
+
+                <div class="bio-stats">
+                    <div class="stat">
+                        <h4 data-en>45+ Years</h4><h4 data-fa>+۴۵ سال</h4><h4 data-ar>+٤٥ سنة</h4>
+                        <p data-en>Experience</p><p data-fa>سابقه</p><p data-ar>خبرة</p>
+                    </div>
+                    <div class="stat">
+                        <h4 data-en>500+</h4><h4 data-fa>+۵۰۰</h4><h4 data-ar>+٥٠٠</h4>
+                        <p data-en>Completed Works</p><p data-fa>کار اجرا شده</p><p data-ar>عمل منجز</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="container">
+        <div class="contact-grid">
+            <div class="contact-info reveal">
+                <div class="contact-portrait">
+                    <img src="ChangizKodari.webp" alt="Changiz Kodari">
+                </div>
+                <span class="kicker">GET IN TOUCH</span>
+                <h2 data-en>Ready to bring artistry to your space? Get in touch.</h2>
+                <h2 data-fa>آماده‌اید هنر را به فضای خود بیاورید؟ با ما تماس بگیرید.</h2>
+                <h2 data-ar>هل أنتم مستعدون لإضافة الفنّ إلى فضائكم؟ تواصلوا معنا.</h2>
+
+                <div class="contact-links">
+                    <a href="sms:09120904212" class="contact-link" dir="ltr">
+                        <div class="contact-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
+                        </div>
+                        0912 090 4212
+                    </a>
+                    <a href="sms:09188113971" class="contact-link" dir="ltr">
+                        <div class="contact-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
+                        </div>
+                        0918 811 3971
+                    </a>
+                    <a href="tel:09120904212" class="contact-link" dir="ltr">
+                        <div class="contact-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                        </div>
+                        <span data-en>Call: 0912 090 4212</span><span data-fa>تماس: 0912 090 4212</span><span data-ar>اتصل: 0912 090 4212</span>
+                    </a>
+                    <a href="tel:09188113971" class="contact-link" dir="ltr">
+                        <div class="contact-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                        </div>
+                        <span data-en>Call: 0918 811 3971</span><span data-fa>تماس: 0918 811 3971</span><span data-ar>اتصل: 0918 811 3971</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="contact-form reveal" style="transition-delay: 0.2s">
+                <form id="contactForm">
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="smsName" placeholder="Name / نام / الاسم" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" class="form-control" id="smsPhone" placeholder="Phone / شماره تماس / رقم الهاتف" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea class="form-control" id="smsMessage" placeholder="Message / پیام / الرسالة" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary form-btn">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
+                        <span data-en>Send via SMS</span>
+                        <span data-fa>ارسال پیامک</span>
+                        <span data-ar>إرسال رسالة نصية</span>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p class="footer-text">© Changiz Kodari Plasterwork Group — changizkodari.ir</p>
+        </div>
+    </footer>
+
+    <!-- Lightbox -->
+    <div class="lightbox" id="lightbox">
+        <div class="lightbox-content">
+            <button class="lightbox-close" id="lbClose">✕</button>
+            <button class="lightbox-nav lightbox-prev" id="lbPrev">❮</button>
+            <img src="" alt="Preview" class="lightbox-img" id="lbImg">
+            <button class="lightbox-nav lightbox-next" id="lbNext">❯</button>
+            <div class="lightbox-info" id="lbInfo">1 / 1</div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script>
+        // --- Language System ---
+        function setLanguage(lang) {
+            document.documentElement.setAttribute('data-language', lang);
+            document.documentElement.dir = (lang === 'fa' || lang === 'ar') ? 'rtl' : 'ltr';
+            document.documentElement.lang = lang;
+            // Update active state on all lang buttons
+            document.querySelectorAll('.lang-btn').forEach(b => {
+                b.classList.toggle('active', b.dataset.lang === lang);
+            });
+        }
+
+        document.querySelectorAll('.lang-btn').forEach(btn => {
+            btn.addEventListener('click', () => setLanguage(btn.dataset.lang));
+        });
+
+        // --- Mobile Menu ---
+        const hamburger = document.querySelector('.hamburger');
+        const navLinks = document.querySelector('.nav-links');
+        
+        hamburger.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+
+        // --- Scroll Reveal ---
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: "0px 0px -50px 0px"
+        };
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('active');
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+
+        // --- Gallery Data ---
+        const PATHS = {
+            mansion: 'Pic/mansion/',
+            wedding: 'Pic/mansion/wedding-hall/',
+            photo: 'Pic/mansion/photo-room/',
+            fitting: 'Pic/mansion/fitting-room/',
+            lobby1: 'Pic/mansion/lobby-1/',
+            lobby2: 'Pic/mansion/lobby-2/',
+            lobby3: 'Pic/mansion/lobby-3/',
+            entrance: 'Pic/mansion/entrance/',
+            res1: 'Pic/residential-1/',
+            res2: 'Pic/residential-2/'
+        };
+
+        const catNames = {
+            'mansion': 'Mansion',
+            'wedding': 'Wedding Hall',
+            'photo': 'Photo Room',
+            'fitting': 'Fitting Room',
+            'lobby1': 'Lobby I',
+            'lobby2': 'Lobby II',
+            'lobby3': 'Lobby III',
+            'entrance': 'Entrance',
+            'res1': 'Residential',
+            'res2': 'Residential II'
+        };
+
+        const images = [
+            // Mansion
+            { src: PATHS.mansion + '2026_08_07_14_52_58_IMG_2097.webp', cat: 'mansion' },
+            { src: PATHS.mansion + '2026_08_07_15_23_41_IMG_2261.webp', cat: 'mansion' },
+            // Wedding
+            { src: PATHS.wedding + '2026_08_07_15_09_18_IMG_2148.webp', cat: 'wedding' },
+            { src: PATHS.wedding + '2026_08_07_15_09_22_IMG_2150.webp', cat: 'wedding' },
+            { src: PATHS.wedding + '2026_08_07_15_09_53_IMG_2154.webp', cat: 'wedding' },
+            { src: PATHS.wedding + '2026_08_07_15_10_35_IMG_2157.webp', cat: 'wedding' },
+            { src: PATHS.wedding + '2026_08_07_15_10_37_IMG_2158.webp', cat: 'wedding' },
+            { src: PATHS.wedding + '2026_08_07_15_10_47_IMG_2160.webp', cat: 'wedding' },
+            { src: PATHS.wedding + '2026_08_07_15_11_13_IMG_2164.webp', cat: 'wedding' },
+            { src: PATHS.wedding + '2026_08_07_15_11_23_IMG_2167.webp', cat: 'wedding' },
+            { src: PATHS.wedding + '2026_08_07_15_11_32_IMG_2169.webp', cat: 'wedding' },
+            { src: PATHS.wedding + '2026_08_07_15_11_39_IMG_2170.webp', cat: 'wedding' },
+            { src: PATHS.wedding + '2026_08_07_15_11_49_IMG_2171.webp', cat: 'wedding' },
+            { src: PATHS.wedding + '2026_08_07_15_13_15_IMG_2179.webp', cat: 'wedding' },
+            // Photo
+            { src: PATHS.photo + '2026_08_07_14_52_45_IMG_2095.webp', cat: 'photo' },
+            { src: PATHS.photo + '2026_08_07_14_53_15_IMG_2099.webp', cat: 'photo' },
+            { src: PATHS.photo + '2026_08_07_15_25_17_IMG_2262.webp', cat: 'photo' },
+            { src: PATHS.photo + '2026_08_07_15_25_52_IMG_2272.webp', cat: 'photo' },
+            { src: PATHS.photo + '2026_08_07_15_25_55_IMG_2273.webp', cat: 'photo' },
+            { src: PATHS.photo + '2026_08_07_15_26_02_IMG_2276.webp', cat: 'photo' },
+            { src: PATHS.photo + '2026_08_07_15_26_06_IMG_2278.webp', cat: 'photo' },
+            { src: PATHS.photo + '2026_08_07_15_26_08_IMG_2279.webp', cat: 'photo' },
+            { src: PATHS.photo + '2026_08_07_15_26_16_IMG_2281.webp', cat: 'photo' },
+            // Fitting
+            { src: PATHS.fitting + '2026_08_07_15_18_28_IMG_2223.webp', cat: 'fitting' },
+            { src: PATHS.fitting + '2026_08_07_15_18_43_IMG_2225.webp', cat: 'fitting' },
+            { src: PATHS.fitting + '2026_08_07_15_18_59_IMG_2229.webp', cat: 'fitting' },
+            { src: PATHS.fitting + '2026_08_07_15_19_04_IMG_2231.webp', cat: 'fitting' },
+            { src: PATHS.fitting + '2026_08_07_15_19_16_IMG_2233.webp', cat: 'fitting' },
+            // Lobby1
+            { src: PATHS.lobby1 + '2026_08_07_15_05_50_IMG_2121.webp', cat: 'lobby1' },
+            { src: PATHS.lobby1 + '2026_08_07_15_06_12_IMG_2123.webp', cat: 'lobby1' },
+            { src: PATHS.lobby1 + '2026_08_07_15_06_35_IMG_2125.webp', cat: 'lobby1' },
+            { src: PATHS.lobby1 + '2026_08_07_15_06_48_IMG_2126.webp', cat: 'lobby1' },
+            { src: PATHS.lobby1 + '2026_08_07_15_06_54_IMG_2128.webp', cat: 'lobby1' },
+            { src: PATHS.lobby1 + '2026_08_07_15_06_58_IMG_2129.webp', cat: 'lobby1' },
+            { src: PATHS.lobby1 + '2026_08_07_15_07_03_IMG_2130.webp', cat: 'lobby1' },
+            { src: PATHS.lobby1 + '2026_08_07_15_07_22_IMG_2131.webp', cat: 'lobby1' },
+            { src: PATHS.lobby1 + '2026_08_07_15_07_32_IMG_2133.webp', cat: 'lobby1' },
+            { src: PATHS.lobby1 + '2026_08_07_15_07_42_IMG_2134.webp', cat: 'lobby1' },
+            { src: PATHS.lobby1 + '2026_08_07_15_07_52_IMG_2136.webp', cat: 'lobby1' },
+            { src: PATHS.lobby1 + '2026_08_07_15_08_10_IMG_2140.webp', cat: 'lobby1' },
+            { src: PATHS.lobby1 + '2026_08_07_15_08_17_IMG_2141.webp', cat: 'lobby1' },
+            { src: PATHS.lobby1 + '2026_08_07_15_08_44_IMG_2144.webp', cat: 'lobby1' },
+            { src: PATHS.lobby1 + '2026_08_07_15_09_04_IMG_2146.webp', cat: 'lobby1' },
+            { src: PATHS.lobby1 + '2026_08_07_15_20_58_IMG_2246.webp', cat: 'lobby1' },
+            { src: PATHS.lobby1 + '2026_08_07_15_21_17_IMG_2248.webp', cat: 'lobby1' },
+            { src: PATHS.lobby1 + '2026_08_07_15_21_21_IMG_2250.webp', cat: 'lobby1' },
+            { src: PATHS.lobby1 + '2026_08_07_15_21_28_IMG_2253.webp', cat: 'lobby1' },
+            { src: PATHS.lobby1 + '2026_08_07_15_21_45_IMG_2258.webp', cat: 'lobby1' },
+            // Lobby2
+            { src: PATHS.lobby2 + '2026_08_07_15_13_39_IMG_2182.webp', cat: 'lobby2' },
+            { src: PATHS.lobby2 + '2026_08_07_15_13_43_IMG_2183.webp', cat: 'lobby2' },
+            { src: PATHS.lobby2 + '2026_08_07_15_13_45_IMG_2184.webp', cat: 'lobby2' },
+            { src: PATHS.lobby2 + '2026_08_07_15_13_47_IMG_2185.webp', cat: 'lobby2' },
+            { src: PATHS.lobby2 + '2026_08_07_15_14_40_IMG_2188.webp', cat: 'lobby2' },
+            { src: PATHS.lobby2 + '2026_08_07_15_14_56_IMG_2189.webp', cat: 'lobby2' },
+            { src: PATHS.lobby2 + '2026_08_07_15_15_18_IMG_2194.webp', cat: 'lobby2' },
+            { src: PATHS.lobby2 + '2026_08_07_15_15_22_IMG_2195.webp', cat: 'lobby2' },
+            { src: PATHS.lobby2 + '2026_08_07_15_15_33_IMG_2198.webp', cat: 'lobby2' },
+            { src: PATHS.lobby2 + '2026_08_07_15_15_49_IMG_2201.webp', cat: 'lobby2' },
+            { src: PATHS.lobby2 + '2026_08_07_15_16_06_IMG_2204.webp', cat: 'lobby2' },
+            { src: PATHS.lobby2 + '2026_08_07_15_16_27_IMG_2207.webp', cat: 'lobby2' },
+            { src: PATHS.lobby2 + '2026_08_07_15_16_34_IMG_2209.webp', cat: 'lobby2' },
+            { src: PATHS.lobby2 + '2026_08_07_15_16_51_IMG_2211.webp', cat: 'lobby2' },
+            { src: PATHS.lobby2 + '2026_08_07_15_17_00_IMG_2212.webp', cat: 'lobby2' },
+            { src: PATHS.lobby2 + '2026_08_07_15_17_06_IMG_2213.webp', cat: 'lobby2' },
+            { src: PATHS.lobby2 + '2026_08_07_15_17_17_IMG_2214.webp', cat: 'lobby2' },
+            { src: PATHS.lobby2 + '2026_08_07_15_17_30_IMG_2217.webp', cat: 'lobby2' },
+            { src: PATHS.lobby2 + '2026_08_07_15_17_37_IMG_2219.webp', cat: 'lobby2' },
+            // Lobby3
+            { src: PATHS.lobby3 + '2026_08_07_15_20_14_IMG_2238.webp', cat: 'lobby3' },
+            { src: PATHS.lobby3 + '2026_08_07_15_20_22_IMG_2240.webp', cat: 'lobby3' },
+            { src: PATHS.lobby3 + '2026_08_07_15_20_35_IMG_2245.webp', cat: 'lobby3' },
+            // Entrance
+            { src: PATHS.entrance + '2026_08_07_14_55_04_IMG_2106.webp', cat: 'entrance' },
+            { src: PATHS.entrance + '2026_08_07_14_55_18_IMG_2108.webp', cat: 'entrance' },
+            { src: PATHS.entrance + '2026_08_07_14_55_26_IMG_2109.webp', cat: 'entrance' },
+            { src: PATHS.entrance + '2026_08_07_14_55_43_IMG_2110.webp', cat: 'entrance' },
+            // Res1
+            ...['IMG_0364.webp', 'IMG_0366.webp', 'IMG_0367.webp', 'IMG_0368.webp', 'IMG_0369.webp', 'IMG_0370.webp', 'IMG_0374.webp', 'IMG_0375.webp', 'IMG_0376.webp', 'IMG_0377.webp', 'IMG_0379.webp', 'IMG_0380.webp', 'IMG_0381.webp', 'IMG_0382.webp', 'IMG_0383.webp', 'IMG_0384.webp', 'IMG_0386.webp', 'IMG_0387.webp', 'IMG_0388.webp', 'IMG_0389.webp', 'IMG_0391.webp', 'IMG_0393.webp', 'IMG_0397.webp', 'IMG_0400.webp'].map(i => ({ src: PATHS.res1 + i, cat: 'res1' })),
+            // Res2
+            ...['Screenshot_1.webp', 'Screenshot_10.webp', 'Screenshot_11.webp', 'Screenshot_12.webp', 'Screenshot_13.webp', 'Screenshot_14.webp', 'Screenshot_15.webp', 'Screenshot_16.webp', 'Screenshot_17.webp', 'Screenshot_18.webp', 'Screenshot_19.webp', 'Screenshot_2.webp', 'Screenshot_3.webp', 'Screenshot_4.webp', 'Screenshot_5.webp', 'Screenshot_6.webp', 'Screenshot_7.webp', 'Screenshot_8.webp', 'Screenshot_9.webp'].map(i => ({ src: PATHS.res2 + i, cat: 'res2' }))
+        ];
+
+        let currentFilteredImages = [];
+        let currentLightboxIndex = 0;
+
+        const grid = document.getElementById('galleryGrid');
+        
+        function renderGallery(filterStr) {
+            grid.innerHTML = '';
+            
+            if (filterStr === 'all') {
+                currentFilteredImages = [...images];
+            } else if (filterStr === 'mansion-all') {
+                const mansionCats = ['mansion', 'wedding', 'photo', 'fitting', 'lobby1', 'lobby2', 'lobby3', 'entrance'];
+                currentFilteredImages = images.filter(img => mansionCats.includes(img.cat));
+            } else {
+                currentFilteredImages = images.filter(img => img.cat === filterStr);
+            }
+
+            // Render limit to avoid huge DOM initially, could add load more
+            const displayLimit = Math.min(currentFilteredImages.length, 120);
+            
+            for(let i = 0; i < displayLimit; i++) {
+                const item = currentFilteredImages[i];
+                const div = document.createElement('div');
+                div.className = 'gallery-item reveal';
+                div.onclick = () => openLightbox(i);
+                
+                div.innerHTML = `
+                    <img src="${item.src}" alt="${catNames[item.cat]}" loading="lazy">
+                    <span class="gallery-tag">${catNames[item.cat]}</span>
+                `;
+                grid.appendChild(div);
+                observer.observe(div);
+            }
+        }
+
+        // --- Filter Buttons ---
+        document.querySelectorAll('.filter-btn').forEach(btn => {
+            btn.addEventListener('click', (e) => {
+                const button = e.target.closest('.filter-btn');
+                if (!button) return;
+                document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+                button.classList.add('active');
+                renderGallery(button.dataset.filter);
+            });
+        });
+
+        // Make filterGallery globally available for taxonomy links
+        window.filterGallery = function(filterStr) {
+            const btn = document.querySelector(`.filter-btn[data-filter="${filterStr}"]`);
+            if (btn) btn.click();
+            document.getElementById('portfolio').scrollIntoView({ behavior: 'smooth' });
+        };
+
+        // --- Lightbox ---
+        const lightbox = document.getElementById('lightbox');
+        const lbImg = document.getElementById('lbImg');
+        const lbInfo = document.getElementById('lbInfo');
+
+        function openLightbox(index) {
+            currentLightboxIndex = index;
+            updateLightbox();
+            lightbox.classList.add('active');
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeLightbox() {
+            lightbox.classList.remove('active');
+            document.body.style.overflow = '';
+        }
+
+        function updateLightbox() {
+            const item = currentFilteredImages[currentLightboxIndex];
+            lbImg.src = item.src;
+            lbInfo.textContent = `${catNames[item.cat]} — ${currentLightboxIndex + 1} / ${currentFilteredImages.length}`;
+        }
+
+        function prevImage() {
+            if (currentLightboxIndex > 0) {
+                currentLightboxIndex--;
+                updateLightbox();
+            }
+        }
+
+        function nextImage() {
+            if (currentLightboxIndex < currentFilteredImages.length - 1) {
+                currentLightboxIndex++;
+                updateLightbox();
+            }
+        }
+
+        document.getElementById('lbClose').addEventListener('click', closeLightbox);
+        document.getElementById('lbPrev').addEventListener('click', prevImage);
+        document.getElementById('lbNext').addEventListener('click', nextImage);
+        
+        lightbox.addEventListener('click', (e) => {
+            if (e.target === lightbox) closeLightbox();
+        });
+
+        document.addEventListener('keydown', (e) => {
+            if (!lightbox.classList.contains('active')) return;
+            if (e.key === 'Escape') closeLightbox();
+            if (e.key === 'ArrowLeft') {
+                document.documentElement.dir === 'rtl' ? nextImage() : prevImage();
+            }
+            if (e.key === 'ArrowRight') {
+                document.documentElement.dir === 'rtl' ? prevImage() : nextImage();
+            }
+        });
+
+        // Swipe logic
+        let touchstartX = 0;
+        let touchendX = 0;
+        
+        lightbox.addEventListener('touchstart', e => {
+            touchstartX = e.changedTouches[0].screenX;
+        });
+        
+        lightbox.addEventListener('touchend', e => {
+            touchendX = e.changedTouches[0].screenX;
+            handleSwipe();
+        });
+        
+        function handleSwipe() {
+            const isRTL = document.documentElement.dir === 'rtl';
+            if (touchendX < touchstartX - 50) {
+                isRTL ? prevImage() : nextImage();
+            }
+            if (touchendX > touchstartX + 50) {
+                isRTL ? nextImage() : prevImage();
+            }
+        }
+
+        // --- SMS Form ---
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            const name = document.getElementById('smsName').value.trim();
+            const phone = document.getElementById('smsPhone').value.trim();
+            const message = document.getElementById('smsMessage').value.trim();
+            const body = encodeURIComponent(`Name: ${name}\nPhone: ${phone}\nMessage: ${message}`);
+            window.location.href = `sms:09120904212?body=${body}`;
+        });
+
+        // Init — start with lobby1 for fast loading
+        renderGallery('lobby1');
+        document.querySelector('.filter-btn.active').classList.remove('active');
+        document.querySelector('.filter-btn[data-filter="lobby1"]').classList.add('active');
+        setLanguage('en');
+
+    </script>
+</body>
+</html>
